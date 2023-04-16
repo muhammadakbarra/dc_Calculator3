@@ -1,0 +1,101 @@
+body {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.card {
+  background-color: #f1f1f5;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.display {
+  background-color: #f1f1f5;
+  height: 30%;
+  width: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: inset 2px 3px 11px rgb(0, 0, 0, 0.16);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 15px;
+  font-size: 35px;
+  color: #232323;
+}
+.display input {
+  background-color: transparent;
+  border: none;
+  text-align: end;
+  font-size: 30px;
+  width: 90%;
+  outline: none;
+}
+.button {
+  /* background-color: yellowgreen; */
+  height: 70%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.tombol-kiri {
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.tombol {
+  background-color: #f1f1f5;
+  box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  cursor: pointer;
+  color: tomato;
+  margin-top: 10px;
+}
+.tombol:hover {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+.tombol-kanan {
+  width: 30%;
+  border-radius: 20px;
+  background-color: rgb(255, 229, 188, 0.842);
+  box-shadow: inset 5px 5px 12px rgb(0, 0, 0, 0.26), 5px 5px 12px #e6e3c3;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
